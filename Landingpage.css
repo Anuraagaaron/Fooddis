@@ -1,0 +1,95 @@
+
+/* App.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #00204a;
+  } 
+  
+  .container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    width: 100%;
+    height: 100%;
+    background-image: url('C:\Users\anura\Downloads\medium-shot-people-with-food-donations.jpg');
+    border-radius: 10%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+  }
+  
+  
+  
+  .content {
+    position: absolute;
+    top: 0;
+    left: 530px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:rgba(7, 5, 5, 0.97);
+  }
+  
+  .website-name {
+    font-size: 2em;
+    margin-left: 10px;
+    background: url('C:\\Users\\anura\\Downloads\\dish.png') no-repeat left center;
+    background-size: auto 100%;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #00204a; /* Dark blue background color */
+    color: white; /* Text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 20px;
+    padding: 8px;
+  
+    padding-left: 60px; /* Adjust the padding to create space for the logo */
+  }
+  
+  
+  .button-container {
+    background-color: white;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .question-heading {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  
+  .button-box {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .button {
+    padding: 10px 50px;
+    font-size: 1em;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4ca5af;
+    color: white;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+    cursor: pointer;
+  }  
